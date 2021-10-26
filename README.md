@@ -134,4 +134,30 @@ Operators tie multiple conditions together. The most common being ```and``` (```
 ## If Statements
 Simply: If this, do that
 
-If statements are one of the simplist logical
+example:
+```python
+my_num = 5
+
+if(my_num < 10):
+  print("My number is less than 10")
+
+# output: "My number is less than 10"
+```
+
+In the above statement, if ```my_num``` is less than 10 it prints ```My number is less than 10``` to the command line.
+
+What if ```my_num``` was greater than 10?
+
+We then need to provide an else statement that is triggered if the condition is anything not specified.
+
+```python
+my_num = 12
+
+if(my_num < 10):
+  print("My number is less than 10")
+else:
+  print("My number is greater than 10")
+
+# output: "My number is greater than 10"
+```
+
